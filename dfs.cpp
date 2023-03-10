@@ -33,7 +33,7 @@ int main()
         g[v1].push_back(v2);
         g[v2].push_back(v1);
     }
-    dfs(g[0]);
+    dfs(1);
 }
 /*
 6 9
